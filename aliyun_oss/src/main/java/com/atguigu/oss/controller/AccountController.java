@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/account")
-@Api("资金服务控制类")
+@Api(tags = "资金服务控制类")
 public class AccountController {
     @Autowired
     public AccountService accountService;
