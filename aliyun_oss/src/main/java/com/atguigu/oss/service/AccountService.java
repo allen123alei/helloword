@@ -1,9 +1,10 @@
-package com.atguigu.oss.service.impl;
+package com.atguigu.oss.service;
 
-import com.atguigu.oss.mode.Account;
+import com.atguigu.oss.dto.Account;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public interface AccountService {  // extends IService<Account>
 
     public List<Account> getACCount(String coinName);

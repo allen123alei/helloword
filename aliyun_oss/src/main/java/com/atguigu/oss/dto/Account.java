@@ -1,4 +1,4 @@
-package com.atguigu.oss.mode;
+package com.atguigu.oss.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

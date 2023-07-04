@@ -1,7 +1,7 @@
 package com.atguigu.oss.controller;
 
-import com.atguigu.oss.mode.Account;
-import com.atguigu.oss.service.impl.AccountService;
+import com.atguigu.oss.dto.Account;
+import com.atguigu.oss.service.AccountService;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
